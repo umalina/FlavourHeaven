@@ -1,0 +1,36 @@
+.footer {
+  background-color: #ffe1e1;
+  color: #333;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.footer .social-icons {
+  margin-bottom: 0.8rem;
+}
+
+.footer .social-icons a {
+  color: #ff4d4d;
+  margin: 0 10px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  transform: scale(1.2);
+  color: #ff8080;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.footer span {
+  color: #ff4d4d;
+  font-weight: 600;
+}

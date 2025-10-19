@@ -1,0 +1,22 @@
+.recipe-details {
+  padding: 2rem;
+  text-align: center;
+}
+
+.recipe-details img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.recipe-details ul, .recipe-details ol {
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.benefits li {
+  color: #2e8b57;
+  font-weight: 500;
+}

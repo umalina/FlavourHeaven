@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f3;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+button {
+  background-color: #ffb6b9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.footer {
+  background-color: #ffb6b9;
+  color: #333;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+

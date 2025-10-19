@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffb6b9;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+}
+
+.links a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 0.8rem;
+  font-weight: 500;
+}
+
+.links a:hover {
+  color: #ff4d4d;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 0.3rem 0.6rem;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+

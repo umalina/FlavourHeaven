@@ -1,0 +1,138 @@
+/* General Cart Button Styles */
+.add-to-cart-btn {
+  background-color: #ff8080;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.9rem;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #ff4d4d;
+}
+
+/* Cart Page Container */
+.cart-page {
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Cart Items */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Individual Cart Item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #fff0f3;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 80%;
+  box-shadow: 0 3px 10px rgba(255, 150, 150, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+}
+
+.cart-item img {
+  width: 120px;
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+
+.cart-item h4 {
+  margin: 0;
+  color: #ff4d4d;
+}
+
+.cart-item p {
+  margin: 0.3rem 0;
+}
+
+/* Remove Item Button */
+.cart-item button {
+  margin-top: 0.5rem;
+  padding: 6px 12px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ff8080;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-item button:hover {
+  background-color: #ff4d4d;
+}
+
+/* Clear Cart Button */
+.clear-cart {
+  margin-top: 1rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clear-cart:hover {
+  background-color: #ff1a1a;
+}
+
+/* Optional: Mini Cart Dropdown */
+.mini-cart {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #fff0f3;
+  box-shadow: 0 4px 20px rgba(255, 150, 150, 0.3);
+  border-radius: 15px;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.mini-cart h4 {
+  color: #ff4d4d;
+  margin-bottom: 0.5rem;
+}
+
+.mini-cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.mini-cart-item img {
+  width: 50px;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.mini-cart-item button {
+  margin-left: auto;
+  padding: 4px 8px;
+  background-color: #ff8080;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mini-cart-item button:hover {
+  background-color: #ff4d4d;
+}
